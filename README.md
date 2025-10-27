@@ -106,9 +106,11 @@ Before analysis, the dataset was thoroughly cleaned to ensure accuracy:
 | File | Description |
 |------|--------------|
 | `Part_I_Exploration.ipynb` | Full exploratory analysis with data cleaning, visualizations, and observations |
+| `Part_I_Exploration.HTML` | Document of full exploratory analysis with data cleaning, visualizations, and observations |
 | `Part_II_Explanatory.ipynb` | Polished presentation with executive summary and final insights |
+| `Part_II_Explanatory.HTML` | Document of Polished presentation with executive summary and final insights |
 | `README.md` | Project documentation |
-| `Prosper_Loan_Data.csv` *(if available)* | Source dataset |
+| `Prosper_Loan_Data.csv`  | Source dataset |
 
 ---
 
