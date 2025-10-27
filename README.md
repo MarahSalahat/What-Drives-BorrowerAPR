@@ -33,3 +33,46 @@ Through **systematic Exploratory Data Analysis (EDA)** and a **polished Explanat
 ---
 
 ## Project Structure
+prosper-loan-analysis/
+│
+├── Part_I_Exploration.ipynb          # Full EDA: Univariate, Bivariate, Multivariate
+├── Part_II_Explanatory.ipynb         # Executive summary with polished visuals
+│
+├── data/
+│   └── prosperLoanData.csv           # Original dataset (not pushed due to size)
+│
+├── images/                           # Exported plots (optional)
+│
+├── Part_I_exploration_template.html  # Exported EDA notebook (HTML)
+├── Part_II_explanatory_template.html # Exported explanatory notebook (HTML)
+│
+├── requirements.txt                  # Python dependencies
+└── README.md                         # You're here!
+
+
+## Exploratory Data Analysis (Part I)
+
+### Visualizations Included
+| Type | Count |
+|------|-------|
+| **Univariate** | Histogram (APR), Count Plot (Credit Grade) |
+| **Bivariate** | Scatterplot (Loan vs APR), Box Plot (APR by Grade), Bar Chart, Clustered Count Plot, Heatmap |
+| **Multivariate** | Facet Grid, Plot Matrix, Encoded Scatter (color + size), Clustered Bar Chart |
+
+> All visualizations include **clear titles, labels, annotations**, and **appropriate scales**.
+
+### Framework: *Question → Visualization → Observation*
+Example:
+
+**Q**: How does credit grade affect APR?  
+**V**: Box plot of BorrowerAPR by ProsperRating  
+**O**: Median APR drops from 32% (HR) to 7% (AA) — clear risk pricing.
+
+Explanatory Analysis (Part II)
+A separate, presentation-ready notebook designed for stakeholders.
+
+Overarching Question: What are the primary drivers of Borrower APR?
+Context: Prosper’s P2P lending model, dataset overview
+Polished Visuals: Reused and refined from EDA
+Key Insights: Summarized with business implications
+Conclusion: Risk-based pricing is effective; small loans remain costly
